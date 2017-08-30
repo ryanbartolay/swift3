@@ -128,4 +128,14 @@ func CheckCountWithReturn(message: String, bool: Bool) -> String {
 
 CheckCountWithReturn(message: "not et",bool: true)
 
-// 
+// Optionals=============================================================================================
+var optString: String?
+
+//print(optString)
+optString = "ryan"
+/*
+ This is saying that optString is not 'nil' then do the method inside
+ */
+if let x = optString {
+    print(x + " xxxxxxxxxx")
+}
